@@ -105,5 +105,77 @@ h1 {
 
 }
 
+@media screen and (max-width: 650px) {
 
+    body {
+       width: 100vw;
+       height: auto;
+       font-family: "Poppins", sans-serif;
+
+    }
+
+    header {
+        display: flex;
+
+    }
+    
+    img {
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        margin-left: 43px;
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; 
+        letter-spacing: 0.596px;
+        padding-left: 38px;
+            }
+
+    p {
+        width: 304px;
+        height: 165px;
+        color: #4B505A;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px; 
+        letter-spacing: 0.5px;
+        padding-left: 30px;
+            }
+
+    .button-header {
+        width: 75px;
+        height: 26px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    a {
+      display: none;
+    }
+
+    .button-inferior {
+        width: 112px;
+        height: 27px;
+        position: relative;
+        top: 145px;
+    }
+    .container-right {
+        text-align: center;
+    }
+    
+}
+
+
+
+    
 
